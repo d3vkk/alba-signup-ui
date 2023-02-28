@@ -2,9 +2,9 @@
 
 ![Dribbble UI Design](https://github.com/d3vkk/alba-signup-ui/blob/master/design.webp)
 
-Alba Signup UI. Converted from UI Design
+Alba Signup UI. Converted from [UI Design](https://dribbble.com/jordanhughes)
 
-[UI Designer](https://dribbble.com/jordanhughes)
+[Website](https://albasignupui.netlify.app)
 
 ## Contribution
 
