@@ -9,11 +9,11 @@
           <p class="mb-2 subtitle">Welcome back! Please enter your details</p>
         </div>
         <form class="py-4">
-          <div class="login-input">
+          <div class="signup-input">
             <label for="Username">Email</label>
             <input type="text" required placeholder="Enter your email" />
           </div>
-          <div class="login-input">
+          <div class="signup-input">
             <label for="Password">Password</label>
             <input
               type="password"
@@ -24,7 +24,7 @@
           <div class="flex flex-row justify-between pb-5">
             <div>
               <input type="checkbox" />
-              <label class="inline-block" for="login-remember"
+              <label class="inline-block" for="signup-remember"
                 >Remember me</label
               >
             </div>
@@ -43,7 +43,7 @@
             <button class="w-full px-3 py-2 border-2 rounded-md btn-google">
               <img
                 class="inline-block"
-                src="/img/login/google-logo.png"
+                src="/img/google-logo.png"
                 alt="Google Logo"
               />
               Sign in with Google
@@ -56,14 +56,14 @@
       </article>
     </section>
     <section
-      id="login-image-cover"
+      id="signup-image-cover"
       class="hidden w-1/2 px-6 py-64 lg:block md:block"
     >
       <div class="flex flex-row items-center justify-center">
         <img
           class="rounded"
-          src="/img/login/login-icon.png"
-          alt="Login Image"
+          src="/img/signup-icon.png"
+          alt="signup Image"
         />
       </div>
     </section>
@@ -71,13 +71,12 @@
 </template>
 
 <script lang="ts">
-import "../assets/css/login.css";
 import { defineComponent, onMounted } from "vue";
 
 export default defineComponent({
   setup() {
     onMounted(() => {
-      document.title = "Login";
+      document.title = "signup";
     });
     return {};
   },
@@ -94,7 +93,7 @@ input[type="checkbox"] {
   @apply mr-2;
 }
 
-.login-input {
+.signup-input {
   @apply pb-5;
 }
 .account-cover {
@@ -104,7 +103,7 @@ img {
   height: 250px;
   width: 250px;
 }
-#login-image-cover {
+#signup-image-cover {
   background-color: var(--gray);
 }
 
