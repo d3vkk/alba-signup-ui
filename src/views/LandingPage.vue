@@ -70,17 +70,7 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, onMounted } from "vue";
-
-export default defineComponent({
-  setup() {
-    onMounted(() => {
-      document.title = "signup";
-    });
-    return {};
-  },
-});
+<script setup lang="ts">
 </script>
 
 <style scoped>
